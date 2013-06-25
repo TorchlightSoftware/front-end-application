@@ -6,7 +6,7 @@ A sandbox for building Twitter Flight components.
 
 Do the following to get this running on your local machine:
 
-1. install git
+1. fork the repo (if you are going to be submitting an application)
 2. git clone the repository
 3. install node
 4. run `npm install`
