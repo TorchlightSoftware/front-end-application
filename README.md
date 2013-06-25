@@ -21,9 +21,9 @@ You should be ready now to create your own components and templates and test the
 
 ### Job application instructions
 
-For those interested in doing front end design for Torchlight.
+For those interested in doing front end design for Torchlight.  This test is required for all applicants.  If you pass we will contact you for an interview.
 
-Each successive part will require more knowledge and skill.  You should be able to complete the first part from what you already know.  The second two will require you to familiarize yourself with new technologies and use them to solve problems.
+Each successive part will require more knowledge and skill.  It starts with general CSS layout, and gets more javascript intensive.
 
 There is no one "right answer" that we are looking for.  We are interested in your solution and approach.  Be ready to talk about why you made certain choices, as this will likely come up in the interview.
 
@@ -50,6 +50,17 @@ We will be using the EventEmitter2 class included in js/vendor to create a simpl
 2. Render the component onto the #left div.
 3. Create a new instance of an EventEmitter2 inside the component, and create a button that emits a 'message' event to it.
 4. Create a listener that appends a 'p' tag with the text 'Message received!' whenever the 'message' event is fired.
+
+### Completing the Test
+
+If you've given it your best and want to get our feedback go ahead and:
+
+1. commit your changes
+2. create a folder called 'resume' in the root
+3. add your resume as a pdf
+4. push and submit a pull request
+
+We look forward to reviewing your application!
 
 ### Technology Reference
 
