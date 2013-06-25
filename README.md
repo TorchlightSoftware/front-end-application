@@ -1,6 +1,6 @@
-# Torchlight Job Application
+# Torchlight Front-End Job Application
 
-A test for front end developers applying at Torchlight Software.  This test is required for all applicants.  If you pass we will contact you for an interview.
+A test for front end developers applying at Torchlight Software.  This test is required for all applicants.  If we have a good fit for you we will contact you for an interview!
 
 ### Installation
 
@@ -38,16 +38,17 @@ Part 2 - Working with Components:
 2. Create a new template with an input box for 'your name' and a submit button.
 3. Modify the component so it first renders the input form, then on submit it renders the original template with the name that was supplied.
 
-Part 3 - Working with Events:
+Part 3 - Creative:
 
 If you are comfortable with the previous two steps and really want to show off your skills, read on!
 
-We will be using the EventEmitter2 class included in js/vendor to create a simple notification system.
+This is more open ended.  We'd like you to do something creative that demonstrates your unique background.  Utilization and understanding of Flight's component lifecycle is encouraged.  Feel free to play around in the #left div, leaving the overall layout and the right div intact from the first two parts.
 
-1. Create a new component and include EventEmitter2 and a new template file as dependencies.
-2. Render the component onto the #left div.
-3. Create a new instance of an EventEmitter2 inside the component, and create a button that emits a 'message' event to it.
-4. Create a listener that appends a 'p' tag with the text 'Message received!' whenever the 'message' event is fired.
+Some ideas:
+
+* data visualization
+* UI / Styling
+* events (feel free to use the EventEmitter2 included in js/vendor)
 
 ### Completing the Test
 
