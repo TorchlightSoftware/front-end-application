@@ -1,0 +1,33 @@
+#!/bin/bash
+current=$(dirname $0)
+root=$current/..
+public=$root/app/public
+client=$root/app/client
+
+rm -rf   $public
+mkdir -p $public/templates
+mkdir -p $public/js
+mkdir -p $public/js/vendor
+mkdir -p $public/css
+mkdir -p $public/img
+mkdir -p $public/audio
+mkdir -p $public/components
+
+# Templates
+$root/node_modules/.bin/jaded -a "jade" -i $client/templates -o $public/templates
+
+# CoffeeScript
+coffee -o $public/js/ -c $client/js/
+coffee -o $public/components -c $client/components
+
+# Jade
+cp $root/node_modules/jade/runtime.js $client/js/vendor/jade-runtime.js
+
+# Non-built files
+cp $client/*.html $public
+cp -R $client/js/vendor/* $public/js/vendor
+cp -R $client/css/* $public/css
+cp -R $client/img/* $public/img 2> /dev/null
+cp -R $client/audio/* $public/audio 2> /dev/null
+
+echo "Build completed!"

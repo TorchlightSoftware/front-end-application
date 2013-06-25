@@ -1,0 +1,23 @@
+{
+  "name": "component-sandbox",
+  "description": "A sandbox for building Twitter Flight components.",
+  "version": "0.0.0",
+  "author": "Torchlight Software <contact@torchlightsoftware.com>",
+  "main": "server/start.coffee",
+  "dependencies": {
+    "coffee-script": "*",
+    "lodash": "*",
+    "connect": "*",
+    "jade": "*",
+    "jaded": "*"
+  },
+  "devDependencies": {
+  },
+  "engines": {
+    "node": ">= 0.10.0"
+  },
+  "private": true,
+  "scripts": {
+    "start": "scripts/run server"
+  }
+}
