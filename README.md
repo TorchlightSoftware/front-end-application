@@ -1,13 +1,13 @@
-# component-sandbox
+# Torchlight Job Application
 
-A sandbox for building Twitter Flight components.
+A test for front end developers applying at Torchlight Software.  This test is required for all applicants.  If you pass we will contact you for an interview.
 
 ### Installation
 
 Do the following to get this running on your local machine:
 
-1. fork the repo (if you are going to be submitting an application)
-2. git clone the repository
+1. fork the repo
+2. git clone your fork
 3. install node
 4. run `npm install`
 5. cd to the project and run `./scripts/build`
@@ -20,8 +20,6 @@ You should be ready now to create your own components and templates and test the
 **As you modify files in the app/client directory, run `./scripts/build` and refresh your browser in order to see the changes.**
 
 ### Job application instructions
-
-For those interested in doing front end design for Torchlight.  This test is required for all applicants.  If you pass we will contact you for an interview.
 
 Each successive part will require more knowledge and skill.  It starts with general CSS layout, and gets more javascript intensive.
 
@@ -70,5 +68,3 @@ We look forward to reviewing your application!
 * [jade](http://jade-lang.com/)
 * [AMD/requireJS](http://requirejs.org/)
 * [EventEmitter2](https://github.com/hij1nx/EventEmitter2)
-
-
