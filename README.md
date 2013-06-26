@@ -28,7 +28,8 @@ There is no one "right answer" that we are looking for.  We are interested in yo
 Part 1 - CSS Layout:
 
 1. Modify styles.css to create the layout shown in this screenshot.  index.html should already have the appropriate divs.
-2. Render the helloWorld component in the #right div.
+2. The header should have a height of 40px, the left panel should have a width of 200px.  All the visible margins you see are 10px.  The design should resize to fit the full browser window.
+3. Render the helloWorld component in the #right div.
 
 ![layout](https://torchlight-files.s3.amazonaws.com/layout.png)
 
